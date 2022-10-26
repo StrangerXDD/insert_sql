@@ -6,8 +6,10 @@ A small program i wrote to help with my database homework
 First you need to copy data to a txt file such as data.txt
 Make sure that the first line is table name, followed by columns, at last the values.
 Each table is seperated with empty line
-```
+
+
 For example in example.txt:
+```
 table_name1
 column1
 column2
@@ -32,8 +34,10 @@ row3_column3_data
 ```
 
 
-example:
->python insert.py -f example.txt -c 2 3
+Usage example:
+```
+python insert.py -f example.txt -c 2 3
+```
 The first table has 2 column, second table has 3
 
 The sql it generate will be:
