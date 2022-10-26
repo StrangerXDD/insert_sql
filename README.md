@@ -1,10 +1,11 @@
 # Description
-===================
 
 A small program i wrote to help with my database homework
 
-First you need to copy data to a txt file such as data.txt
+First you need to copy data to a txt file such as example.txt
+
 Make sure that the first line is table name, followed by columns, at last the values.
+
 Each table is seperated with empty line
 
 
