@@ -1,15 +1,15 @@
 # Description
 
-A small program i wrote to help with my database homework
+A small program I wrote to help with my database homework.
 
-First you need to copy data to a txt file such as example.txt
+First, you need to copy data to a txt file such as example.txt
 
-Make sure that the first line is table name, followed by columns, at last the values.
+Make sure that the first line is the table name, followed by columns, and at last, the values.
 
-Each table is seperated with empty line
+Each table is separated by an empty line.
 
 
-For example in example.txt:
+For example, in example.txt:
 ```
 table_name1
 column1
@@ -39,9 +39,9 @@ Usage example:
 ```
 python insert.py -f example.txt -c 2 3
 ```
-The first table has 2 column, second table has 3
+The first table has 2 columns, the second table has 3
 
-The sql it generate will be:
+The query.sql it generates will be:
 ```
 INSERT INTO table_name1 (`column1`, `column2`) 
 VALUES ('row1_column1_data', 'row1_column2_data'),
